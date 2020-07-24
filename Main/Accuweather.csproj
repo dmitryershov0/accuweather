@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <PackageReference Include="Accuweather.Locations" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Current" Version="1.0.0" />
   </ItemGroup>
 
 </Project>

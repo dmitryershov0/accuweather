@@ -1,5 +1,6 @@
 ﻿using System;
 using Accuweather.Locations;
+using Accuweather.Current;
 
 namespace Accuweather
 {
@@ -29,6 +30,14 @@ namespace Accuweather
         /// </summary>
         /// <returns></returns>
         public ILocationsApi Locations => _locations ?? (_locations = new LocationsApi(_apiKey, _language));
+
+        private ICurrentConditions _currentConditions;
+
+        /// <summary>
+        /// Get Current Conditions data for a specific location.
+        /// </summary>
+        /// <value></value>
+        public ICurrentConditions CurrentConditions => _currentConditions ?? (_currentConditions = new CurrentConditions(_apiKey, _language));
         
     }
 }

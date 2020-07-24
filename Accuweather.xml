@@ -23,6 +23,12 @@
             </summary>
             <returns></returns>
         </member>
+        <member name="P:Accuweather.AccuweatherApi.CurrentConditions">
+            <summary>
+            Get Current Conditions data for a specific location.
+            </summary>
+            <value></value>
+        </member>
         <member name="T:Accuweather.IAccuweatherApi">
             <summary>
             Accuweather Api interface
@@ -32,6 +38,12 @@
             <summary>
             The Locations API allows users to get a location key for their desired location.
             This location key will then be used in the other APIs to retrieve weather data.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Accuweather.IAccuweatherApi.CurrentConditions">
+            <summary>
+            Get Current Conditions data for a specific location.
             </summary>
             <value></value>
         </member>
