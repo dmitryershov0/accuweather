@@ -1,8 +1,5 @@
 using NUnit.Framework;
-using Accuweather.Locations;
-using Accuweather.Locations.Enums;
 using System.Threading.Tasks;
-using Accuweather;
 
 namespace Accuweather.Tests
 {
