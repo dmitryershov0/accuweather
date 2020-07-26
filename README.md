@@ -7,13 +7,13 @@
 1️⃣ [Location Api Client](https://github.com/dmitryershov0/accuweather-locations).
 📜 https://developer.accuweather.com/accuweather-locations-api/apis
 
-2️⃣ [Current Conditions Api Client](https://www.nuget.org/packages/Accuweather/). 
+2️⃣ [Current Conditions Api Client](https://github.com/dmitryershov0/accuweather-current). 
 📜 https://developer.accuweather.com/accuweather-current-conditions-api/apis
 
-3️⃣ [Forecast Api Client](https://www.nuget.org/packages/Accuweather/).
+3️⃣ [Forecast Api Client](https://github.com/dmitryershov0/accuweather-forecast).
 📜 https://developer.accuweather.com/accuweather-forecast-api/apis
 
-4️⃣ [Indices Api Client](https://www.nuget.org/packages/Accuweather/). 
+4️⃣ [Indices Api Client](https://github.com/dmitryershov0/accuweather-indices). 
 📜 https://developer.accuweather.com/accuweather-indices-api/apis
 
 
