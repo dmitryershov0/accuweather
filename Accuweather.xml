@@ -5,9 +5,7 @@
     </assembly>
     <members>
         <member name="T:Accuweather.AccuweatherApi">
-            <summary>
-            Accuweather Api client
-            </summary>
+            <inheritdoc cref="T:Accuweather.IAccuweatherApi"/>
         </member>
         <member name="M:Accuweather.AccuweatherApi.#ctor(System.String,System.String)">
             <summary>
@@ -17,21 +15,20 @@
             <param name="language">Language</param>
         </member>
         <member name="P:Accuweather.AccuweatherApi.Locations">
-            <summary>
-            The Locations API allows users to get a location key for their desired location.
-             This location key will then be used in the other APIs to retrieve weather data.
-            </summary>
-            <returns></returns>
+            <inheritdoc cref="P:Accuweather.IAccuweatherApi.Locations"/>
         </member>
         <member name="P:Accuweather.AccuweatherApi.CurrentConditions">
-            <summary>
-            Get Current Conditions data for a specific location.
-            </summary>
-            <value></value>
+            <inheritdoc cref="P:Accuweather.IAccuweatherApi.CurrentConditions"/>
+        </member>
+        <member name="P:Accuweather.AccuweatherApi.Forecast">
+            <inheritdoc cref="P:Accuweather.IAccuweatherApi.Forecast"/>
+        </member>
+        <member name="P:Accuweather.AccuweatherApi.Indices">
+            <inheritdoc cref="P:Accuweather.IAccuweatherApi.Indices"/>
         </member>
         <member name="T:Accuweather.IAccuweatherApi">
             <summary>
-            Accuweather Api interface
+            Accuweather Api
             </summary>
         </member>
         <member name="P:Accuweather.IAccuweatherApi.Locations">
@@ -44,6 +41,18 @@
         <member name="P:Accuweather.IAccuweatherApi.CurrentConditions">
             <summary>
             Get Current Conditions data for a specific location.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Accuweather.IAccuweatherApi.Forecast">
+            <summary>
+            Get forecast information for a specific location.
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Accuweather.IAccuweatherApi.Indices">
+            <summary>
+            Get indices information for a specific location.
             </summary>
             <value></value>
         </member>

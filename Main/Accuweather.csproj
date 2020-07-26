@@ -8,13 +8,16 @@
     <PackageId>Accuweather</PackageId>
     <Version>1.0.0</Version>
     <PackageDescription>
-     Api client accuweather
+     Api client accuweather: Locations, Current Conditions,
+      24-hour Historical Current Conditions, Forecast 5-day, Forecast 12-hour, Indices 5 day.
      </PackageDescription>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Accuweather.Locations" Version="1.0.0" />
     <PackageReference Include="Accuweather.Current" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Forecast" Version="1.0.0" />
+    <PackageReference Include="Accuweather.Indices" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
